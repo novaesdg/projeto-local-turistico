@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+div {
+  width: 1120px;
+  height: 3054px;
+  margin: 80px auto;
+}
+
+main {
+
+}
+
+.headline1 {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #E1624F;
+  margin-bottom: 8px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.local1 {
+  margin-top: 40px;
+}
+
+.textimg1 {
+  font-style: italic;
+  margin-top: 24px;
+  text-align: center;
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 64px;
+}
