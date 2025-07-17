@@ -11,13 +11,12 @@ div {
   width: 1120px;
   height: 3054px;
   margin: 80px auto;
+  box-sizing: border-box;
 }
 
-main {
+/* Conheça Busan */
 
-}
-
-.headline1 {
+.initial-headline {
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
@@ -27,19 +26,89 @@ main {
 
 h1 {
   font-size: 35px;
+  color: #1B1B1B;
 }
 
 .local1 {
   margin-top: 40px;
 }
 
-.textimg1 {
+.description {
   font-style: italic;
   margin-top: 24px;
   text-align: center;
+  color: #333;
 }
 
 hr {
   margin-top: 40px;
-  margin-bottom: 64px;
+  margin-bottom: 40px;
+}
+
+/* Destinos */
+
+.other-headline {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #E1624F;
+  margin-top: 64px;
+  margin-bottom: 2px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #1B1B1B;
+}
+
+.description2 {
+  color: #333;
+  margin-top: 8px;
+}
+
+img {
+  margin-top: 48px;
+  margin-bottom: 20px;
+}
+
+.text {
+  margin-top: 4px;
+  color: #333;
+}
+
+.forlink {
+  font-weight: bold;
+}
+
+ul li::marker {
+  color: black;
+}
+
+.history {
+  margin-left: 20px;
+  font-weight: bold;
+  color: blue;
+}
+
+.couple {
+  margin-left: 20px;
+  font-weight: bold;
+  color: purple;
+}
+
+.familie {
+  margin-left: 20px;
+  font-weight: bold;
+  color: red;
+}
+
+.budget {
+  margin-left: 20px;
+  font-weight: bold;
+  color: orange;
+}
+
+.final {
+  text-align: center;
+  color: #333;
 }
